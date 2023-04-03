@@ -48,16 +48,55 @@ table {
     border-spacing: 0;
 }
 /* END OF RESET */
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     display: flex;
+    margin: 0 auto;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    
 }
 .colors{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .colors input{
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 12px;
+    width: 240px;
+    height: 140px;
+    cursor:pointer;
+
+}
+.blackBtn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.redBtn{
+    background-color: red;
+}
+.yellowBtn{
+    background-color: yellow;
+}
+.orangeBtn{
+    background-color: orange;
+}
+.greenBtn{
+    background-color: green;
+}
+.purpleBtn{
+    background-color: purple;
+}
+.blueBtn{
+    background-color: blue;
+}
+.whiteBtn{
+    background-color: white;
 }
